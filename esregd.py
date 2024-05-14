@@ -9,4 +9,4 @@ while True:
 	for word in dictionary:
 		if re.fullmatch(pattern, word):
 			print(word, end="\t")
-	print()
+	print('\n')
